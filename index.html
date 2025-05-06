@@ -37,57 +37,258 @@
   <div class="section-separator"></div>
 
   <!-- ABOUT -->
-  <section class="section" id="about">
-    <h2>About Me</h2>
-    <p>
-      Hi! I'm Iván Paulin — a curious problem-solver, backend developer, and co-founder of a tech startup built from scratch in Dublin. I'm currently finishing my degree in Systems Engineering, but my journey in tech started way before university.
-      <br><br>
-      I specialize in building reliable and scalable backend systems using Python, FastAPI, PostgreSQL, and Docker. I’ve also worn the hat of a Product Owner and team lead, managing roadmaps, gathering user feedback, and shipping real-world solutions that matter.
-      <br><br>
-      What sets me apart? I've worked with distributed teams across Argentina, Ireland, and the U.S., and I thrive in environments where tech meets creativity and ownership is encouraged. Whether I’m debugging a tricky API issue or leading a sprint, I’m always focused on clarity, impact, and continuous learning.
-      <br><br>
-      Beyond the code, I believe in connecting with people, building things that solve real problems, and growing through collaboration. You're most likely to find me refining my skills, contributing to open-source projects, or testing out the next crazy idea that pops into my head.
-      <br><br>
-      Let’s connect, build, and make something meaningful.
-    </p>
+  <section id="about" class="about-section">
+    <h2>👋 About Me</h2>
+    <p>I'm Iván Paulin, a Systems Engineering student and backend developer with a passion for building impactful digital solutions. I co-founded Mamba Smart, a B2B marketing platform launched in Dublin, where I wore multiple hats — from coding in Python to leading product strategy.</p>
+    <p>With hands-on experience in FastAPI, PostgreSQL, Docker, and AWS, I’ve developed reliable backend systems and worked in agile environments both in Argentina and internationally. My time working abroad in Ireland and the U.S. helped me sharpen my communication skills, adaptability, and cultural awareness.</p>
+    <p>I enjoy learning, solving meaningful problems, and collaborating with others who are just as passionate about technology as I am. Whether I’m contributing to a sprint or launching a new feature, I’m focused on writing clean code and delivering real value.</p>
   </section>
 
-  <div class="section-separator"></div>
-
-  <!-- SKILLS -->
-  <section class="section skills-section" id="skills">
-    <h2>Skills</h2>
+  <section id="skills" class="skills-section">
+    <h2>🧰 Skills</h2>
     <div class="skills-grid">
-      <div class="skill"><img src="images/icons/html.svg" alt="HTML" />HTML</div>
-      <div class="skill"><img src="images/icons/css.svg" alt="CSS" />CSS</div>
-      <div class="skill"><img src="images/icons/javascript.svg" alt="JavaScript" />JavaScript</div>
-      <div class="skill"><img src="images/icons/react.svg" alt="React" />React</div>
-      <div class="skill"><img src="images/icons/python.svg" alt="Python" />Python</div>
-      <div class="skill"><img src="images/icons/github.svg" alt="GitHub" />Git & GitHub</div>
+      <div class="skill-category">
+        <h4>Languages & Frameworks</h4>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>FastAPI</li>
+          <li>ReactJS</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h4>Databases & Tools</h4>
+        <ul>
+          <li>PostgreSQL</li>
+          <li>Docker</li>
+          <li>AWS (EC2, S3)</li>
+          <li>Git & GitHub</li>
+          <li>REST APIs</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h4>Project & Product</h4>
+        <ul>
+          <li>Agile / Scrum</li>
+          <li>Product Ownership</li>
+          <li>Team Leadership</li>
+          <li>Client Communication</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
     </div>
   </section>
-
-  <div class="section-separator"></div>
-
+  
+  
   <!-- PROJECTS -->
-  <section class="section" id="projects">
-    <h2>Projects</h2>
-    <p>Coming soon... 😉</p>
-  </section>
+ <section id="projects" class="projects-section">
+  <h2>🚀 Projects</h2>
 
-  <div class="section-separator"></div>
+  <div class="project">
+    <h3>🧠 Mamba Smart – B2B Marketing Automation Platform</h3>
+    <p><strong>Role:</strong> Co-Founder · Backend Developer · Product Owner<br>
+    <strong>Tech Stack:</strong> Python · FastAPI · PostgreSQL · Docker · ReactJS · AWS</p>
+    <p>
+      Mamba Smart is a B2B platform created to streamline outbound marketing campaigns for small tech teams. Developed and launched during my stay in Dublin, I led the project from idea to MVP and beyond.
+    </p>
+    <ul>
+      <li>Designed the backend architecture using Python and FastAPI</li>
+      <li>Structured the database schema and handled queries with PostgreSQL</li>
+      <li>Built core business logic for user segmentation and email automation</li>
+      <li>Transitioned into a Product Owner role to lead a team of 4 developers</li>
+      <li>Deployed and maintained services using Docker and AWS EC2</li>
+      <li>Conducted weekly testing and user interviews to iterate on features</li>
+    </ul>
+    <p class="highlight">🎯 Outcome: Successfully onboarded initial users and created a functional marketing tool tailored to early-stage B2B startups.</p>
+  </div>
+
+  <div class="project">
+    <h3>⚙️ Enterprise Backend Services at Vates (EPAM Systems)</h3>
+    <p><strong>Role:</strong> Backend Developer<br>
+    <strong>Tech Stack:</strong> Python · FastAPI · Docker · PostgreSQL · AWS</p>
+    <p>
+      During my time at Vates, I contributed to four backend development projects for international clients.
+    </p>
+    <ul>
+      <li>Developed and maintained RESTful APIs with FastAPI</li>
+      <li>Managed containerized services using Docker</li>
+      <li>Collaborated in Agile teams, taking part in sprint planning and code reviews</li>
+      <li>Implemented secure database interactions and optimized performance</li>
+      <li>Deployed backend components to AWS environments</li>
+      <li>Worked closely with QA and frontend teams to ensure end-to-end functionality</li>
+    </ul>
+    <p class="highlight">🔍 What I learned: Working in production environments and delivering reliable software within dynamic teams.</p>
+  </div>
+
+  <div class="cta">
+    <h3>🤝 Let’s Build Something Great</h3>
+    <p>Do you think we could create something amazing together? I’m always open to new ideas, collaborations, or just a good conversation about tech and innovation.</p>
+    <a href="#contact" class="cta-button">Let's Talk</a>
+  </div>
+</section>
+
+<style>
+  .projects-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+  }
+
+  .projects-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .project {
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+
+  .project h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
+  .project p {
+    margin-bottom: 0.5rem;
+  }
+
+  .project ul {
+    margin: 0.5rem 0 1rem 1.2rem;
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: #007b83;
+  }
+
+  .cta {
+    text-align: center;
+    background-color: #007b83;
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+
+  .cta h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: white;
+    color: #007b83;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: #e2f4f4;
+  }
+</style>
+
 
   <!-- BLOG -->
-  <section class="section" id="blog">
-    <h2>Blog</h2>
-    <div class="blog-post">
-      <img src="images/mamba_team.jpg" alt="Mamba team" class="blog-img" />
-      <h3>My Experience at Mamba</h3>
-      <p>A snapshot of collaboration and innovation during my co-founding experience.</p>
-    </div>
-  </section>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Blog - Ivan Paulin</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            padding: 2rem;
+        }
 
-  <div class="section-separator"></div>
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .blog-post {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        .blog-img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .blog-post h2 {
+            color: #007b83;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-post p {
+            line-height: 1.6;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 2rem;
+            font-weight: bold;
+            color: #007b83;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>📝 Blog</h1>
+
+    <div class="blog-post">
+        <img src="images/mamba_team.jpg" alt="Mamba team" class="blog-img"/>
+        <h2>🚀 Building Mamba Smart from Scratch</h2>
+        <p>
+            Creating Mamba Smart was more than just writing code — it was about solving a real problem in the B2B marketing space.
+            Working in Dublin with a small but passionate team, we launched the MVP in record time. I led backend development, designed our architecture,
+            and later transitioned into the Product Owner role. The experience taught me how to lead, prioritize, and listen to users.
+        </p>
+    </div>
+
+    <div class="blog-post">
+        <img src="images/code_snippet.jpg" alt="Code snippet" class="blog-img"/>
+        <h2>🧩 Debugging with Confidence</h2>
+        <p>
+            Every developer has that moment when something *just doesn’t work*. In this post, I reflect on one of my biggest debugging challenges and
+            how approaching it with patience and methodical thinking turned it into a breakthrough. Spoiler: it involved an unexpected Docker issue and
+            some Friday night persistence.
+        </p>
+    </div>
+
+    <div class="blog-post">
+        <img src="images/agile_team.jpg" alt="Agile team discussion" class="blog-img"/>
+        <h2>📊 What Agile Really Taught Me</h2>
+        <p>
+            Agile is more than sticky notes and sprints. It’s about continuous delivery, honest retrospectives, and real collaboration. I share what it was
+            like to work in Agile teams at Vates and how those experiences shaped the way I approach product development today.
+        </p>
+    </div>
+</body>
+</html>
+
 
   <!-- CONTACT -->
   <section class="section contact" id="contact">

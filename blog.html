@@ -5,14 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Blog - Ivan Paulin</title>
     <link rel="stylesheet" href="css/styles.css"/>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .blog-post {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        .blog-img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .blog-post h2 {
+            color: #007b83;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-post p {
+            line-height: 1.6;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 2rem;
+            font-weight: bold;
+            color: #007b83;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Blog</h1>
+    <h1>📝 Blog</h1>
+
     <div class="blog-post">
         <img src="images/mamba_team.jpg" alt="Mamba team" class="blog-img"/>
-        <h2>Mamba Project</h2>
-        <p>A snapshot of collaboration and innovation during the early days of Mamba.</p>
+        <h2>🚀 Building Mamba Smart from Scratch</h2>
+        <p>
+            Creating Mamba Smart was more than just writing code — it was about solving a real problem in the B2B marketing space.
+            Working in Dublin with a small but passionate team, we launched the MVP in record time. I led backend development, designed our architecture,
+            and later transitioned into the Product Owner role. The experience taught me how to lead, prioritize, and listen to users.
+        </p>
     </div>
-    <a href="index.html">Back to Home</a>
+
+    <div class="blog-post">
+        <img src="images/code_snippet.jpg" alt="Code snippet" class="blog-img"/>
+        <h2>🧩 Debugging with Confidence</h2>
+        <p>
+            Every developer has that moment when something *just doesn’t work*. In this post, I reflect on one of my biggest debugging challenges and
+            how approaching it with patience and methodical thinking turned it into a breakthrough. Spoiler: it involved an unexpected Docker issue and
+            some Friday night persistence.
+        </p>
+    </div>
+
+    <div class="blog-post">
+        <img src="images/agile_team.jpg" alt="Agile team discussion" class="blog-img"/>
+        <h2>📊 What Agile Really Taught Me</h2>
+        <p>
+            Agile is more than sticky notes and sprints. It’s about continuous delivery, honest retrospectives, and real collaboration. I share what it was
+            like to work in Agile teams at Vates and how those experiences shaped the way I approach product development today.
+        </p>
+    </div>
+
+    <a href="index.html" class="back-link">← Back to Home</a>
 </body>
 </html>

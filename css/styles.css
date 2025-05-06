@@ -224,3 +224,65 @@
     opacity: 0.5;
     
   }
+/* Estilo general de secciones destacadas */
+.about-section,
+.skills-section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Título con emoji alineado */
+  .about-section,
+    .skills-section {
+      padding: 2rem;
+      margin: 2rem auto;
+      width: 90%;            /* Igualar ancho con Projects si usa porcentaje */
+      max-width: 1200px;     /* Igual al contenedor principal del sitio */
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .skills-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .skills-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .skill-category {
+      flex: 1;
+    }
+  
+    .skill-category h4 {
+      color: #007b83;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+    }
+  
+    .skill-category ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  
+    .skill-category li {
+      margin-bottom: 0.3rem;
+      font-size: 1rem;
+    }
+  
+    /* Responsive horizontal layout on wider screens */
+    @media (min-width: 768px) {
+      .skills-grid {
+        flex-direction: row;
+      }
+    }
+
+  
